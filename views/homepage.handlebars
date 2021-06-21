@@ -1,1 +1,9 @@
-<div>You are on the homepage</div>
+<ol class="post-list">
+    {{!-- loop iterates through post list --}}
+  {{#each posts as |post|}}
+  <li>
+    {{!-- ">" charater indicates partial folowed by partial file and object passed to partial --}}
+    {{> post-info post }}
+  </li>
+  {{/each}}
+</ol>
