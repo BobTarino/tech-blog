@@ -1,7 +1,7 @@
 // this index prefixes the endpoints of the apis // assign the routes to Express.js router
 const router = require('express').Router();
 
-const userRoutes = require('./user-routes.js');
+const userRoutes = require('./user-routes');
 const postRoutes = require('./post-routes');
 const commentRoutes = require('./comment-routes');
 

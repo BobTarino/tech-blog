@@ -14,6 +14,15 @@
       <h1>
         <a href="/">The Tech Blog</a>
       </h1>
+      {{!-- conditionally render login/logout button --}}
+      <nav>
+        {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      </nav>
     </header>
     <main>
       {{{ body }}}
@@ -22,7 +31,13 @@
         <h3>Developed by <a href="https://github.com/BobTarino">BobTarino</a></h3>
     </footer>
   </div>
-
+  {{!-- conditionally render logout script if logged in  --}}
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  <script src="/javascript/autologout.js"></script>
+  {{/if}}
 </body>
 
 </html>
+
+
