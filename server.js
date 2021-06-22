@@ -37,16 +37,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-// middleware function that can take all of the contents of public folder and serve them as static assets
-app.use(express.static(path.join(__dirname, 'public')));
-
 // turn on controllers
 app.use(controllers);
-
-
 
 
 

@@ -57,11 +57,7 @@
     min-width: 40%;
     min-height: 100px;
   }
-
-  textarea {
-    min-width: 40%;
-    min-height: 100px;
-  }
+  
   
   form > div {
     margin-bottom: 2%;
