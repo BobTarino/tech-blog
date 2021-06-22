@@ -57,6 +57,11 @@
     min-width: 40%;
     min-height: 100px;
   }
+
+  textarea {
+    min-width: 40%;
+    min-height: 100px;
+  }
   
   form > div {
     margin-bottom: 2%;
@@ -159,6 +164,9 @@
     width: 300px;
   }
   
+  .new-post-form textarea {
+    width: 300px;
+  }
   
   .edit-post-form {
     margin-bottom: 5%;
