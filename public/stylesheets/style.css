@@ -161,7 +161,7 @@
   }
   
   .new-post-form textarea {
-    width: 300px;
+    padding: 60px;
   }
   
   .edit-post-form {
