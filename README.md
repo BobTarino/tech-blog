@@ -1,7 +1,7 @@
 # tech-blog
 ![badgeImage](https://img.shields.io/badge/license-MIT-blue)
 ## Description
-Application allows a logged-in user to post blog content, and comment on other users' content. It displays 
+Application allows a logged-in user to post blog content, and comment on other users' content.
 ## User Story 
 AS A developer who writes about tech
 I WANT a CMS-style blog site
