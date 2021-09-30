@@ -16,11 +16,19 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 
 ## Installation
+
+* Clone project & navigate to root folder
+* Add a .env file to the root of the project
+* Add following code
+
+DB_NAME='tech_blog_db'
+DB_USER='root'
+DB_PW='XXX'
+
+
 ![Screen Shot 2021-06-21 at 6 41 00 PM](https://user-images.githubusercontent.com/79377937/122843389-f45b9e00-d2c4-11eb-99cf-c9cbc811d825.png)
 ![Screen Shot 2021-06-21 at 6 41 23 PM](https://user-images.githubusercontent.com/79377937/122843410-ffaec980-d2c4-11eb-8cc0-f256167ab61b.png)
 ![Screen Shot 2021-06-21 at 6 41 09 PM](https://user-images.githubusercontent.com/79377937/122843415-03dae700-d2c5-11eb-976e-e96c0efa4cc5.png)
-
-
 
 
 
